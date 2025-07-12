@@ -1,4 +1,3 @@
-بكل سرور! إليك مثالًا احترافيًا لملف `README.md` يمكنك استخدامه في مستودع GitHub التالي: [install\_docker\_portainer](https://github.com/AhmedDS10/install_docker_portainer). هذا الملف يوضح الهدف من المستودع، خطوات التثبيت، والشرح المبسط.
 
 ---
 
