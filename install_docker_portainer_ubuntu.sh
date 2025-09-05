@@ -41,7 +41,7 @@ echo "🔁 Enabling and starting Docker service..."
 sudo systemctl enable --now docker
 
 # Optional: Add current user to 'docker' group
-# sudo usermod -aG docker "$USER"
+sudo usermod -aG docker "$USER"
 
 echo "📁 Creating Portainer data directory..."
 sudo mkdir -p /opt/portainer/data
@@ -58,3 +58,4 @@ sudo docker run -d \
 echo "✅ Done! Access Portainer at:
     http://<your-server-ip>:9000
 or https://<your-server-ip>:9443"
+
